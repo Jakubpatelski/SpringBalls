@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{styles.css}">
+    <title>Bouncing Balls</title>
+
+</head>
+<body>
+
+<div class="welcome">
+    <h1 id="greet">Welcome to overview of the project "Bouncing Balls"</h1>
+    <br>
+    <h1 class="heading"><u>Description</u></h1>
+
+    <p class="text">Bouncing Balls is a full stack, 2 threads desktop app which creates two balls that constantly bounce inside given space without going through each other. <br>The app is written in java with the use of JavaFx library.<br></p>
+    <h1 class="heading"><u>Game</u></h1>
+
+<video id="video" th:src="@{media/ScreenRecording.mov}" controls></video>
+    <h1 class="heading"><u>Project Structure</u></h1>
+    <img th:src="@{media/projectStrusture.png}" width="900" height="700">
+    <h1 class="heading"><u>Hello Controller</u></h1>
+    <img th:src="@{media/HelloController.png}" width="900" height="600">
+    <h1 class="heading"><u>"Bridge"</u></h1>
+    <img th:src="@{media/Rename.png}" width="900" height="400">
+
+
+    <h1 class="heading"><u>Collision</u></h1>
+    <img th:src="@{media/CheckCollision.png}" width="1000" height="700">
+
+    <h1 class="heading"><u>Run</u></h1>
+    <img th:src="@{media/Runmethod.png}" width="1000" height="700">
+
+
+
+</div>
+</body>
+
+
+</html>

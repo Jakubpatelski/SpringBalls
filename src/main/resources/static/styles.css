@@ -1,0 +1,36 @@
+
+
+body {
+        background-color: #FFE4C4;
+}
+.welcome {
+    font-family: arial;
+    font-size: 24px;
+    text-align: center;
+    color:black;
+}
+#greet{
+    color: #3b684f;
+    font-family: arial;
+    font-size: 36px;
+    text-align: center;
+}
+.text {
+    color: black;
+}
+
+.heading{
+    color: #3b684f;
+}
+
+#picture{
+    width: 1000px;
+    height: 1200px;
+
+}
+#video{
+    length: 1400px;
+    width: 900px;
+}
+
+
